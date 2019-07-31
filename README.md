@@ -1,4 +1,4 @@
-# Jekyll/Cloudcannon Suite Project Template #
+# 4pFoods Asset Hub #
 
 This project uses Gulp, Jekyll, Cloudcannon Suite. It is meant for hosting on Cloudcannon, but it is possible to reconfigure for Firebase or GithubPages hosting.
 

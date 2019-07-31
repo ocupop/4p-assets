@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-cloudcannon-template",
+  "name": "4p-assets",
   "version": "1.0.0",
-  "description": "Cloudcannon Suite Template is a starting point for sites hosted on Cloudcannon and built using Jekyll.",
+  "description": "Asset Hub for 4pFoods.",
   "private": true,
   "repository": {
     "type": "git",
