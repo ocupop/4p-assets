@@ -18,18 +18,15 @@ analytics_code:
 
 # Collections
 collections:
-  assets:
+  pages:
     output: true
-    layout: default
-    permalink: /assets/:path/
 
-# defaults:
-#   -
-#     scope:
-#       type: 'examples'
-#     values:
-#       layout: default
-#       variable_name: value
+defaults:
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
 
 # Build settings
 safe: false
@@ -38,14 +35,5 @@ sass:
   sass_dir: _scss
 plugins:
   - jekyll-sitemap
-
-file_extensions:
-  - eps
-  - jpg
-  - png  
-
-color_profiles:
-  - RGB
-  - CMYK  
 
 placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Placeholder

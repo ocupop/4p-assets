@@ -12,15 +12,18 @@ title: Home
     <div class="row">
       <div class="col-12">
         <div class="content">
-          <div class="logo-grid">
-            {% for asset in site.assets %}
-            <a href="{{ asset.url }}" class="logo-item">
-              <img src="{{ asset.preview_image }}" class="img-fluid" alt="{{ asset.title }} image">
-            </a>
+          <ul>
+            {% for page in site.pages %}
+            <li>
+              <a href="{{ page.url }}">
+                {{ page.title }}
+              </a>
+            </li>
             {% endfor %}
-          </div>
+          </ul>
         </div>
       </div>
+      
     </div>
   </div>
 </section>

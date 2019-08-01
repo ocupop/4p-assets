@@ -1,4 +1,5 @@
 ---
+layout: asset
 title:
 preview_image:
 files:

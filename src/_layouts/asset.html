@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content">
+          <h1>{{ page.title }}</h1>
+          <img src="{{ page.preview_image }}" class="img-fluid" alt="{{ page.title }} image">
+        </div>
+        <div class="logo-grid">
+          {% for file in page.files %}
+          <a href="{{ file.file_path }}" class="logo-item">
+            <img src="{{ file.file_path }}" class="img-fluid" alt="{{ file.title }} image">
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

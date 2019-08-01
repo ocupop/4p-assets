@@ -1,4 +1,28 @@
 ---
 layout: default
 ---
-{{ content }}
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>{{ page.title }}</h1>
+        {{ page.description }}
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        {% for asset in page.assets %}
+        <a href="{{ asset.download_file }}" class="logo-item">
+          <img src="{{ asset.preview_image }}" class="img-fluid" alt="{{ asset.name}} image">
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+

@@ -1,4 +1,5 @@
 ---
+layout: asset
 title: Logo Badge
 preview_image: /uploads/4p-foods-rgb-logo-badge-black.png
 files:
