@@ -55,6 +55,10 @@ files:
     file_path: /uploads/4p-foods-cmyk-logo-color-color.png
     file_extension: png
     color_profile: RGB
+  - file_title: ZIpit
+    file_path: /uploads/rgb.zip
+    file_extension:
+    color_profile:
 category:
 ---
 
