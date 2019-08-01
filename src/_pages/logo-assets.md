@@ -1,6 +1,6 @@
 ---
 title: Logo Assets
-description: Logo assets description here...
+description: Available logo versions shown below. Click to download.
 assets:
   - name: Logo
     description: '4p Logo. Download includes EPS, JPG, PNG files in black white and color'
