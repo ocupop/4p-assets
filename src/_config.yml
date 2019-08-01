@@ -18,10 +18,10 @@ analytics_code:
 
 # Collections
 collections:
-  examples:
+  assets:
     output: true
     layout: default
-    permalink: /examples/:path/
+    permalink: /assets/:path/
 
 # defaults:
 #   -

@@ -1,0 +1,40 @@
+.logo-grid {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  .logo-item {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid $gray-300;
+    margin: -1px 0 0 -1px;
+    position: relative;
+    height: 0;
+    padding-top: 15%;
+    background-color: $white;
+    @include media-breakpoint-down(md) {
+      width: 33%;
+      padding-top: 25%;
+    }
+    img {
+      display: block;
+      width: auto;
+      max-width: 75%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    p {
+      color: $gray-800;
+      font-size: 13px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+}

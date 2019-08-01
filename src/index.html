@@ -1,5 +1,26 @@
 ---
 layout: homepage
-title: Project Template
+title: Home
 ---
-
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Assets</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="content">
+          <div class="logo-grid">
+            {% for i in (1..8) %}
+            <a href="#" class="logo-item">
+              <img src="https://via.placeholder.com/150" class="img-fluid" alt="">
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
