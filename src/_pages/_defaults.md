@@ -5,5 +5,5 @@ assets:
   - name:
     description:
     preview_image:
-    download_file:
+    download_path:
 ---
