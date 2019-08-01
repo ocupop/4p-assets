@@ -5,6 +5,6 @@ assets:
   - name: Logo
     description: '4p Logo. Download includes EPS, JPG, PNG files in black white and color'
     preview_image: /uploads/4p-foods-rgb-logo-black.jpg
-    download_path:
+    download_path: /uploads/logo.zip
 ---
 
