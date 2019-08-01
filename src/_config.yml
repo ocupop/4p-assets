@@ -39,4 +39,13 @@ sass:
 plugins:
   - jekyll-sitemap
 
+file_extensions:
+  - eps
+  - jpg
+  - png  
+
+color_profiles:
+  - RGB
+  - CMYK  
+
 placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Placeholder

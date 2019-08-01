@@ -13,9 +13,9 @@ title: Home
       <div class="col-12">
         <div class="content">
           <div class="logo-grid">
-            {% for i in (1..8) %}
-            <a href="#" class="logo-item">
-              <img src="https://via.placeholder.com/150" class="img-fluid" alt="">
+            {% for asset in site.assets %}
+            <a href="{{ asset.url }}" class="logo-item">
+              <img src="{{ asset.preview_image }}" class="img-fluid" alt="{{ asset.title }} image">
             </a>
             {% endfor %}
           </div>

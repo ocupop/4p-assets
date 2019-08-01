@@ -4,5 +4,7 @@ preview_image:
 files:
   - file_title:
     file_path:
-category:    
+category:
+file_extension:
+color_profile:
 ---
