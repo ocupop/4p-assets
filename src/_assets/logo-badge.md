@@ -1,9 +1,9 @@
 ---
 title: Logo Badge
-preview_image:
+preview_image: /uploads/4p-foods-rgb-logo-badge-black.png
 files:
-  - file_title:
-    file_path:
+  - file_title: Logo Badge Black
+    file_path: /uploads/4p-foods-rgb-logo-badge-black.eps
 category:
 ---
 
