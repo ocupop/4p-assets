@@ -1,9 +1,10 @@
 ---
 title: Logo Assets
-description: These some fine logo assets
+description: Logo assets description here...
 assets:
-  - name:
-    description:
-    preview_image:
+  - name: Logo
+    description: '4p Logo. Download includes EPS, JPG, PNG files in black white and color'
+    preview_image: /uploads/4p-foods-rgb-logo-black.jpg
     download_file:
 ---
+
