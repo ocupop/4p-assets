@@ -15,12 +15,16 @@ layout: default
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-lg-3">
-        {% for asset in page.assets %}
-        <a href="{{ asset.download_file }}" download class="logo-item">
-          <img src="{{ asset.preview_image }}" class="img-fluid" alt="{{ asset.name}} image">
-        </a>
-        {% endfor %}
+      <div class="col-12">
+        <div class="content">
+          <div class="logo-grid">
+            {% for asset in page.assets %}
+            <a href="{{ asset.download_path }}" download="{{ asset.download_path }}" class="logo-item">
+              <img src="{{ asset.preview_image }}" class="img-fluid" alt="{{ asset.name}} image">
+            </a>
+            {% endfor %}
+          </div>
+        </div>
       </div>
     </div>
   </div>
