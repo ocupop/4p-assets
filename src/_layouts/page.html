@@ -17,7 +17,7 @@ layout: default
     <div class="row">
       <div class="col-lg-3">
         {% for asset in page.assets %}
-        <a href="{{ asset.download_file }}" class="logo-item">
+        <a href="{{ asset.download_file }}" download class="logo-item">
           <img src="{{ asset.preview_image }}" class="img-fluid" alt="{{ asset.name}} image">
         </a>
         {% endfor %}
