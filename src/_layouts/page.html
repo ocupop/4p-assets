@@ -12,15 +12,15 @@ layout: default
     </div>
   </div>
 </section>
-<section class="pt-0">
+<section class="bg-secondary">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="content">
           <div class="asset-grid">
             {% for asset in page.assets %}
-              <a href="{{ asset.download_path }}" download="{{ asset.download_path }}" class="item">
-                <img src="{{ asset.preview_image }}" class="img-fluid" alt="{{ asset.name}} image">
+              <a href="{{ asset.download_path }}" download="{{ asset.download_path }}" class="item" style="background-image: url({{ asset.preview_image | default: site.placeholder_image }});">
+                <i class="remixicon-download-2-fill ri-xl"></i>
               </a>
             {% endfor %}
           </div>
