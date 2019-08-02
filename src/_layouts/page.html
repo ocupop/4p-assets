@@ -5,23 +5,23 @@ layout: default
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 text-center">
         <h1>{{ page.title }}</h1>
-        {{ page.description }}
+        <p>{{ page.description }}</p>
       </div>
     </div>
   </div>
 </section>
-<section>
+<section class="pt-0">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="content">
-          <div class="logo-grid">
+          <div class="asset-grid">
             {% for asset in page.assets %}
-            <a href="{{ asset.download_path }}" download="{{ asset.download_path }}" class="logo-item">
-              <img src="{{ asset.preview_image }}" class="img-fluid" alt="{{ asset.name}} image">
-            </a>
+              <a href="{{ asset.download_path }}" download="{{ asset.download_path }}" class="item">
+                <img src="{{ asset.preview_image }}" class="img-fluid" alt="{{ asset.name}} image">
+              </a>
             {% endfor %}
           </div>
         </div>

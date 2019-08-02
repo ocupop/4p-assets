@@ -1,5 +1,5 @@
 # Site settings
-title: 4pFoods Asset Hub
+title: Asset Hub
 email: dev@ocupop.com
 url: "https://assets.4pfoods.com"
 permalink: pretty
@@ -36,4 +36,4 @@ sass:
 plugins:
   - jekyll-sitemap
 
-placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Placeholder
+placeholder_image: https://via.placeholder.com/1000x1000/FFF/FFF?text=

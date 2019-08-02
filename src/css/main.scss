@@ -14,11 +14,7 @@
 @import "global/animations";
 
 // Components
-@import "components/page_header";
-@import "components/logo_grid";
-
-// Pages
-@import "pages/homepage";
+@import "components/grid";
 
 // Examples
-@import "resources/cognito";
+@import "vendor/cognito";

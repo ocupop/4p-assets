@@ -1,9 +1,10 @@
-.logo-grid {
+.asset-grid {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 20px;
-  .logo-item {
+  .item {
     width: 20%;
     display: flex;
     align-items: center;
@@ -29,8 +30,9 @@
       transform: translateX(-50%) translateY(-50%);
     }
     p {
-      color: $gray-800;
-      font-size: 13px;
+      color: $gray-300;
+      font-size: 1rem;
+      text-transform: uppercase;
       position: absolute;
       top: 50%;
       left: 50%;

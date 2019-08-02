@@ -4,26 +4,36 @@ title: Home
 ---
 <section>
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1>Assets</h1>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 text-center">
+        <div class="editable">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ad ipsum dolorem inventore, neque quos
+            laudantium, quisquam porro aut laborum tempora dolor officia! Molestiae tenetur quos repellat temporibus
+            corrupti? Quod!</p>
+        </div>
+        <form class="bd-search d-none align-items-center" action="/search" method="get">
+          <input type="search" class="form-control" id="search-query" name="q" placeholder="Search..."
+            aria-label="Search for..." autocomplete="off">
+          <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse"
+            data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false"
+            aria-label="Toggle docs navigation">
+          </button>
+        </form>
+        <hr>
       </div>
     </div>
+
     <div class="row">
       <div class="col-12">
-        <div class="content">
-          <ul class="nav">
-            {% for page in site.pages %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ page.url }}">
-                {{ page.title }}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
+        <div class="asset-grid">
+          {% for page in site.pages %}
+          <a href="{{ page.url }}" class="item" style="background-image: url({{ page.featured_image | default: site.placeholder_image }});">
+            <p>{{ page.title }}</p>
+          </a>
+          {% endfor %}
         </div>
       </div>
-      
+
     </div>
   </div>
 </section>
