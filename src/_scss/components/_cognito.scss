@@ -1,0 +1,35 @@
+.cognito {
+  .c-forms-heading {
+    h2 {
+      font-family: $font-family-base;
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+  .c-forms-description {
+    font-family: $font-family-secondary;
+    text-align: center;
+  }
+  .c-forms-form {
+    .c-label {
+      border: 0 !important;
+      clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+      -webkit-clip-path: inset(50%) !important;
+        clip-path: inset(50%) !important;  /* 2 */
+      height: 1px !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      padding: 0 !important;
+      position: absolute !important;
+      width: 1px !important;
+      white-space: nowrap !important;            /* 3 */
+    }
+    input,
+    textarea {
+      padding: 6px 12px;
+      border: 1px solid $gray-200;
+      font-family: $font-family-secondary;
+      color: $gray-200;
+    }
+  }
+}
